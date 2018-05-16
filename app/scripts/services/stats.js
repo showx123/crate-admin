@@ -209,7 +209,7 @@ const stats = angular.module('stats', ['sql', 'health', 'tableinfo', 'nodeinfo',
           data.tables = tableinfo.data.tables;
         } 
         ClusterEventsHandler.trigger('STATE_REFRESHED');
-      }).catch(function (query) {
+      }, function (query) {
         onErrorResponse(query);
         ShardInfo.deferred.reject({});
         data.status = '--';
