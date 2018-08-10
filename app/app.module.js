@@ -62,6 +62,11 @@ var ROUTING = {
     'url': '/views',
     'template': '<views>',
   },
+  '/sample': {
+    'name': 'sample',
+    'url': '/sample',
+    'templateUrl': './views/sample.html',
+  },
   '/views/:schema/:name': {
     'name': 'views.view',
     'url': '/:schema/:name',
