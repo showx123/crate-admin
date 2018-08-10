@@ -24,6 +24,7 @@ import './scripts/controllers/console';
 import './scripts/controllers/tables';
 import './scripts/controllers/views';
 import './scripts/controllers/cluster';
+import './scripts/controllers/calculator';
 
 //filters
 import './scripts/filter/text';

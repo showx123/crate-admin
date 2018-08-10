@@ -30,7 +30,8 @@ var MODULES = [
   'datatypechecks',
   'nvd3',
   'pascalprecht.translate',
-  'oc.lazyLoad'
+  'oc.lazyLoad',
+  'Calculator'
 ];
 
 var DEFAULT_PLUGINS = [];
@@ -65,7 +66,7 @@ var ROUTING = {
   '/sample': {
     'name': 'sample',
     'url': '/sample',
-    'templateUrl': './views/sample.html',
+    'templateUrl': 'static/views/calculator.html',
   },
   '/views/:schema/:name': {
     'name': 'views.view',
